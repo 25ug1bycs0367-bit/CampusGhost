@@ -1,0 +1,14 @@
+{
+  "platform_key": "research_portal",
+  "platform_name": "Research Portal",
+  "accounts": [
+    {
+      "person_ref": "campus-person-003",
+      "external_account_id": "research-kabir-003",
+      "account_status": "active",
+      "permissions": [
+        {"resource": "Wireless Sensor Research", "role": "Researcher", "active": true, "expires_at": "2027-06-15"}
+      ]
+    }
+  ]
+}

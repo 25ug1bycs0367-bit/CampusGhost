@@ -1,0 +1,89 @@
+{
+  "platform_key": "contineo_portal",
+  "platform_name": "Contineo Portal (LMS)",
+  "accounts": [
+    {
+      "person_ref": "campus-person-001",
+      "external_account_id": "contineo-aarav-001",
+      "account_status": "active",
+      "permissions": [
+        {
+          "resource": "Course: Data Structures",
+          "role": "Student",
+          "active": true,
+          "expires_at": null
+        }
+      ]
+    },
+    {
+      "person_ref": "campus-faculty-005",
+      "external_account_id": "contineo-ananya-005",
+      "account_status": "active",
+      "permissions": [
+        {
+          "resource": "Course: Data Structures",
+          "role": "Course Instructor",
+          "active": true,
+          "expires_at": null
+        },
+        {
+          "resource": "Portal Administration",
+          "role": "Portal Administrator",
+          "active": true,
+          "expires_at": null
+        }
+      ]
+    },
+    {
+      "person_ref": "campus-faculty-006",
+      "external_account_id": "contineo-vikram-006",
+      "account_status": "active",
+      "permissions": [
+        {
+          "resource": "Course: Applied Physics",
+          "role": "Course Instructor",
+          "active": true,
+          "expires_at": null
+        },
+        {
+          "resource": "Course: Applied Physics Gradebook",
+          "role": "Course Grader",
+          "active": true,
+          "expires_at": null
+        }
+      ]
+    },
+    {
+      "person_ref": "campus-faculty-007",
+      "external_account_id": "contineo-rohan-007",
+      "account_status": "active",
+      "permissions": [
+        {
+          "resource": "Course: Computer Networks",
+          "role": "Course Instructor",
+          "active": true,
+          "expires_at": null
+        },
+        {
+          "resource": "All Student Records",
+          "role": "Student Records Administrator",
+          "active": true,
+          "expires_at": null
+        }
+      ]
+    },
+    {
+      "person_ref": "campus-faculty-008",
+      "external_account_id": "contineo-kavya-008",
+      "account_status": "active",
+      "permissions": [
+        {
+          "resource": "Course: Discrete Mathematics",
+          "role": "Course Grader",
+          "active": true,
+          "expires_at": null
+        }
+      ]
+    }
+  ]
+}

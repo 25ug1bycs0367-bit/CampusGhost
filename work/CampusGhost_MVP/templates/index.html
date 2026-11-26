@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CampusGhost | Privacy-Preserving Access Security</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<header class="topbar">
+  <div><div class="eyebrow">CAMPUS IDENTITY SECURITY</div><h1>CampusGhost</h1></div>
+  <div class="top-note"><span class="dot"></span> Pseudonymous local simulation &nbsp; · &nbsp; <a href="/admin/login">Admin portal</a></div>
+</header>
+<main class="container">
+  <section class="intro">
+    <div><p class="eyebrow">PRIVACY-PRESERVING ACCESS GOVERNANCE</p><h2>No access should remain after its purpose has ended.</h2>
+    <p class="muted">Investigate access across campus platforms using pseudonymous records. Sensitive fields are encrypted in the database. CampusGhost reports findings; authorised administrators can review identity matches and revoke permissions through the separate admin portal.</p></div>
+    <button class="secondary" id="resetBtn">Reset demo data</button>
+  </section>
+
+  <section class="privacy-note">
+    <strong>Privacy mode active</strong>
+    <span>The dashboard, findings and audit log use pseudonymous references. Stored investigation and access payloads are encrypted.</span>
+  </section>
+
+  <section class="stats" id="stats"></section>
+
+  <section class="section-head">
+    <div><p class="eyebrow">MODULAR DATA COLLECTION</p><h2>Platform connectors</h2></div>
+    <button id="syncPlatformsBtn">Sync platform data</button>
+  </section>
+  <p class="muted small">The prototype reads separate simulated platform exports, including the Contineo Portal as the LMS example. Each connector uses the same interface, so an authorised read-only HTTPS API adapter can replace a simulator later.</p>
+  <section id="platforms" class="platform-grid"></section>
+  <p id="connectorStatus" class="muted small" aria-live="polite">Platform connector status will appear here.</p>
+
+  <section class="section-head"><div><p class="eyebrow">INVESTIGATION WORKSPACE</p><h2>Agent findings</h2></div><button id="investigateAllBtn">Investigate everyone</button></section>
+  <p class="muted small" id="rankingNote">Findings are ranked by unnecessary and expired access. Only pseudonymous person references are shown. Administrators can review and revoke eligible permissions through the separate admin portal.</p>
+  <section id="result" class="result empty">Run an investigation to view pseudonymous access findings and supporting evidence.</section>
+
+  <section class="section-head"><div><p class="eyebrow">ACCOUNTABILITY</p><h2>Audit log</h2></div></section>
+  <section class="table-wrap"><table><thead><tr><th>Time</th><th>Pseudonymous person</th><th>Actor</th><th>Action</th><th>Details</th></tr></thead><tbody id="auditRows"><tr><td colspan="5">Loading…</td></tr></tbody></table></section>
+  <p class="footer-note">CampusGhost MVP · Fictional pseudonymous records · Encrypted local storage · Pseudonymous investigations with restricted administrator-controlled revocation.</p>
+</main>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body></html>

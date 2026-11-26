@@ -1,0 +1,2 @@
+# Agent orchestration. Ollama is installed as a separate local application.
+langgraph>=0.2,<2

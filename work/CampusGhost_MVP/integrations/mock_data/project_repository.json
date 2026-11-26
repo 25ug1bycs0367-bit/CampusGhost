@@ -1,0 +1,14 @@
+{
+  "platform_key": "project_repository",
+  "platform_name": "Project Repository",
+  "accounts": [
+    {
+      "person_ref": "campus-person-002",
+      "external_account_id": "repo-mira-002",
+      "account_status": "active",
+      "permissions": [
+        {"resource": "Campus Security Repository", "role": "Admin", "active": true, "expires_at": "2026-11-20"}
+      ]
+    }
+  ]
+}

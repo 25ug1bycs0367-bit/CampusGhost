@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -221,3 +222,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+=======
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+>>>>>>> e446217 (Initial CampusGhost project)

@@ -1,0 +1,22 @@
+{
+  "platform_key": "department_drive",
+  "platform_name": "Department Drive",
+  "accounts": [
+    {
+      "person_ref": "campus-person-002",
+      "external_account_id": "drive-mira-002",
+      "account_status": "active",
+      "permissions": [
+        {"resource": "Security Project Files", "role": "Editor", "active": true, "expires_at": "2026-11-20"}
+      ]
+    },
+    {
+      "person_ref": "campus-person-004",
+      "external_account_id": "drive-isha-004",
+      "account_status": "active",
+      "permissions": [
+        {"resource": "Internship Shared Folder", "role": "Editor", "active": true, "expires_at": "2026-11-18"}
+      ]
+    }
+  ]
+}
